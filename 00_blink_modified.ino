@@ -6,7 +6,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(LED_BUILTIN, HIGH); // Turn the voltage of the LED pin on
-  delay(250); // Wait for an amount of milliseconds
+  delay(500); // Wait for an amount of milliseconds
   digitalWrite(LED_BUILTIN, LOW); // Turn the woltage of the LED pin off
   delay(250);
 }
